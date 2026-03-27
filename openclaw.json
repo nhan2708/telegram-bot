@@ -1,50 +1,13 @@
 {
-  "meta": {
-    "lastTouchedVersion": "2026.3.24",
-    "lastTouchedAt": "2026-03-26T15:15:29.213Z"
-  },
-  "wizard": {
-    "lastRunAt": "2026-03-26T15:11:29.507Z",
-    "lastRunVersion": "2026.3.24",
-    "lastRunCommand": "doctor",
-    "lastRunMode": "local"
-  },
-  "auth": {
-    "profiles": {
-      "openai-codex:vuthanhnhan2708@gmail.com": {
-        "provider": "openai-codex",
-        "mode": "oauth"
-      }
-    }
-  },
   "agents": {
     "defaults": {
-      "model": "openai-codex/gpt-5.4",
-      "models": {
-        "openai-codex/gpt-5.4": {}
-      }
+      "model": "openai/gpt-4.1-mini"
     }
-  },
-  "commands": {
-    "native": "auto",
-    "nativeSkills": "auto",
-    "restart": true,
-    "ownerDisplay": "raw"
   },
   "channels": {
     "telegram": {
       "enabled": true,
-      "dmPolicy": "pairing",
-      "botToken": "8723498538:AAFWkRJ-ZKHjHoK-SY5b0r_eg9wgvS6ohDY",
-      "groupPolicy": "allowlist",
-      "streaming": "partial"
-    }
-  },
-  "gateway": {
-    "mode": "local",
-    "auth": {
-      "mode": "token",
-      "token": "c8b6b477d5c85394f8ffc3a58f3d8c4ac043b5e8372149dd"
+      "botToken": "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"
     }
   }
 }
