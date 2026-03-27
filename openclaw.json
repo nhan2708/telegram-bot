@@ -9,5 +9,8 @@
       "enabled": true,
       "botToken": "8723498538:AAFWkRJ-ZKHjHoK-SY5b0r_eg9wgvS6ohDY"
     }
+  },
+  "gateway": {
+    "mode": "local"
   }
 }
