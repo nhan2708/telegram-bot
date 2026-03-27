@@ -5,5 +5,5 @@ services:
     buildCommand: "npm install"
     startCommand: "npx openclaw gateway"
     envVars:
-      - key: OPENAI_API_KEY
+      - key: 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
         sync: false
